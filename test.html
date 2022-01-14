@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="phone-grid" name="ph">
+      <input class="output" type="text" name="txt" readonly="" />
+      <span class="num" onclick="document.ph.txt.value += '1' ">1</span>
+      <span class="num" onclick="document.ph.txt.value += '2' ">2</span>
+      <span class="num" onclick="document.ph.txt.value += '3' ">3</span>
+      <span class="num" onclick="document.ph.txt.value += '4' ">4</span>
+      <span class="num" onclick="document.ph.txt.value += '5' ">5</span>
+      <span class="num" onclick="document.ph.txt.value += '6' ">6</span>
+      <span class="num" onclick="document.ph.txt.value += '7' ">7</span>
+      <span class="num" onclick="document.ph.txt.value += '8' ">8</span>
+      <span class="num" onclick="document.ph.txt.value += '9' ">9</span>
+      <span class="num" onclick="document.ph.txt.value += '*' ">*</span>
+      <span class="num" onclick="document.ph.txt.value += '0' ">0</span>
+      <span class="num" onclick="document.ph.txt.value += '#' ">#</span>
+      <span class="num" onclick="document.ph.txt.value += '+' ">+</span>
+      <span class="call" onclick="document.ph.txt.value += '' ">call</span>
+      <span class="num" onclick="document.ph.txt.value = '' ">C</span>
+    </form>
+  </body>
+</html>
